@@ -1,0 +1,30 @@
+{
+  "name": "restaurant-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir dist --extensions '.ts'",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@babel/cli": "^7.27.1",
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.14",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "uuidv4": "^6.2.13"
+  }
+}
